@@ -2,18 +2,18 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "title": "Jose Luis Barboza Gonzales",
+    "titleTemplate": "%s · joseluisb Portfolio",
+    "description": "Jose Luis Barboza Gonzales Portfolio in Minimal theme.",
+    "author": "Jose Luis Barboza Gonzales",
     "avatar": "../content/images/gatsby.png",
     "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
     "social": {
       "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/lucho19jose",
+      "medium": "https://medium.com/@barbozagonzalesjose",
+      "linkedin": "https://www.linkedin.com/in/jose-luis-barboza-gonzales-923b6a14b/",
+      "mail": "mailto:barbozagonzalesjose@gmail.com"
     }
   },
   "siteConfiguration": {
@@ -21,14 +21,12 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Projects", "url": "/#projects" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "/resumejoseluis.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },

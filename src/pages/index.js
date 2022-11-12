@@ -15,7 +15,7 @@ import {
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Seo title="Jose Luis Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
@@ -26,7 +26,7 @@ export default function IndexPage() {
             </Section>
         </Animation> */}
         {/* <InterestsSection sectionId="details" heading="Details" /> */}
-        <ProjectsSection sectionId="features" heading="Projects" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
         {/* <ContactSection sectionId="github" heading="Issues?" /> */}
       </Page>
     </>

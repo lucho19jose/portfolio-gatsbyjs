@@ -2,14 +2,14 @@
 sectionId: imprint
 ---
 
-#### Information pursuant to § 5 TMG
+#### Information pursuant to 5 TMG
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
+José Luis<br />
+150 N 2th Street<br />
+Andahuaylas<br />
+Peru
 
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>barbozagonzalesjose@gmail.com</u>
 
 ---
 

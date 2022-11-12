@@ -2,40 +2,54 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "title": "Siga CETPRO Perú",
+      "description": "This project is an academic system for manage processes like enrollment, grades, assistance in technical institutions. In this project my rol was as a Fullstack developer.",
+      "tags": ["Vue.js", "Laravel", "Quasar"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/innovatec.PNG",
         "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "linkTo": "https://www.sigacetproperu.com/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://www.sigacetproperu.com/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "title": "Zpedidos web",
+      "description": "This is a delivery service where people can ask for food and services, I was as a fronted developer creating user interfaces.",
+      "tags": ["Vue.js", "Bootstrap"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/zpedidos.png",
         "alt": "Extendable Layout"
       },
       "links": [
         {
+          "type": "external",
+          "url": "https://zpedidos.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "title": "Profile Finder",
+      "description": "This is a personal project where people can look for profiles with BattleTag using Diablo 3 API.",
+      "tags": ["Vue.js", "Bootstrap", "Font Awesome"],
+      "image": {
+        "src": "../../images/profilefinder.PNG",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://diablo3inproduction.netlify.app/#/"
+        },
+        {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/lucho19jose/Vue2-Diablo3Juego"
         }
       ]
     }

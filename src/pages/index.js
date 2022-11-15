@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from './components/Projects'
+import Projects from '../components/Projects'
 import {
   AboutSection,
   ArticlesSection,
@@ -20,13 +20,14 @@ export default function IndexPage() {
         <HeroSection sectionId="hero" />
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <AboutSection sectionId="about" heading="About" />
-        {/* <Animation type="fadeUp">
+        <Animation type="fadeUp">
             <Section heading="Projects">
               <Projects></Projects>
+              <img src="content/images/react.png" alt="asd" />
             </Section>
-        </Animation> */}
+        </Animation>
         {/* <InterestsSection sectionId="details" heading="Details" /> */}
-        <ProjectsSection sectionId="projects" heading="Projects" />
+        {/* <ProjectsSection sectionId="projects" heading="Projects" /> */}
         {/* <ContactSection sectionId="github" heading="Issues?" /> */}
       </Page>
     </>

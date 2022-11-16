@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { innovatec, zpedidos, diablo3 } from './innovatec'
 import './Projects.css'
-import './cards.css'
+//import './cards.css'
 
 const Projects = () => {
 
@@ -60,7 +60,7 @@ const Projects = () => {
               <div className="card-content">
                   <div className="card-image">
                       {/* <span className="card-title">Cloud Beauty</span> */}
-                      <img src={item.img} alt='proyect in portfolio'/>
+                      <img src={item.img} alt='proyect in portfolio' width='300px' height='300px'/>
                   </div>
                   
                   <div className="card-text">

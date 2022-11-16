@@ -6,6 +6,18 @@
   margin-bottom: 10px;
 }
 
+.card-container {
+  width: 300px !important;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.card-image {
+  width: 300px;
+}
+
 .badge {
   padding: 5px;
   border-radius: 7px;

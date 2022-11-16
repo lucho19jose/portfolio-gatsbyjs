@@ -23,7 +23,6 @@ export default function IndexPage() {
         <Animation type="fadeUp">
             <Section heading="Projects">
               <Projects></Projects>
-              <img src="content/images/react.png" alt="asd" />
             </Section>
         </Animation>
         {/* <InterestsSection sectionId="details" heading="Details" /> */}

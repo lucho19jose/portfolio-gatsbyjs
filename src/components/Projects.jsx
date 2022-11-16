@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { innovatec, zpedidos, diablo3 } from './innovatec'
+import { innovatec, zpedidos, diablo3, cashflow} from './imagesbase64'
 import './Projects.css'
 
 const Projects = () => {
@@ -18,10 +18,18 @@ const Projects = () => {
     {
       img: zpedidos,
       title: 'Zpedidos web',
-      description: 'This is a delivery service where people can ask for food and services, I was as a fronted developer creating user interfaces.',
+      description: 'This is a delivery service where people can ask for food and services, I was as a fronted developer for its web app.',
       tecnologies: ['Vue.js', 'Bootstrap'],
       urlgithub: '',
       urllive: 'https://zpedidos.com/'
+    },
+    {
+      img: cashflow,
+      title: 'CashFlow-6Jars',
+      description: 'App to manage personal expenses and incomes using 6 jars method proposed by Harv Eker. Using capacitor to build the app.',
+      tecnologies: ['Vue.js', 'Quasar', 'TypeScript', 'Capacitor'],
+      urlgithub: 'https://github.com/lucho19jose/personalcashflow',
+      urllive: 'https://6jars.netlify.app/'
     },
     {
       img: diablo3,
@@ -31,6 +39,7 @@ const Projects = () => {
       urlgithub: 'https://github.com/lucho19jose/Vue2-Diablo3Juego',
       urllive: 'https://diablo3inproduction.netlify.app/#/'
     },
+    
   ]
 
   const tecnologies = [
@@ -53,6 +62,14 @@ const Projects = () => {
     {
       technology: 'Font Awesome',
       color: '#1c7ed6'
+    },
+    {
+      technology: 'Capacitor',
+      color: '#1c7ed6'
+    },
+    {
+      technology: 'TypeScript',
+      color: '#3178c6'
     },
   ]
 
@@ -78,7 +95,8 @@ const Projects = () => {
                 </div>
                 
                 <div className="card-links">
-                    <a href={item.urllive} title="See Live" target="_blank"><span>See Live</span></a>
+                    <a href={item.urllive} title="See the Project Live" target="_blank"><span>See Live</span></a>
+                    { item.urlgithub ? <a href={item.urlgithub} title="See in Github" target="_blank"><span>Github</span></a>: null }
                 </div>
               </div>
             </div>

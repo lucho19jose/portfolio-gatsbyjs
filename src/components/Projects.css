@@ -1,4 +1,6 @@
-
+:root {
+  --white: #ffffff;
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +14,6 @@
   text-align: left;
   margin-bottom: 15px;
   box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 30%);
-  border: 1px solid red;
 }
 
 .card-image {
@@ -29,18 +30,30 @@
   object-fit: cover;
 }
 
+.card-container-content {
+  padding: 5px;
+  border-left: 1px solid var(--white);
+  border-right: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .card-description {
   height: 140px;
-  padding: 5px;
-  margin-bottom: 10px;
+  /* padding: 5px; */
+}
+
+.card-description p {
+  /* margin: 0px; */
 }
 
 .card-tecnologies {
-  padding: 5px;
+  padding: 5px 0px 5px 0px;
 }
 
 .badge {
-  padding: 5px;
+  padding: 3px;
   border-radius: 7px;
   margin-right: 5px;
 }

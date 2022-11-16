@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { innovatec, zpedidos, diablo3 } from './innovatec'
 import './Projects.css'
-//import './cards.css'
 
 const Projects = () => {
 
@@ -65,21 +64,22 @@ const Projects = () => {
                   {/* <span className="card-title">Cloud Beauty</span> */}
                   <img src={item.img} alt='proyect in portfolio' className='card-image-img'/>
               </div>
-              
-              <div className="card-description">
-                  <p>
-                      { item.description }
-                  </p>
-              </div>
-                  
-              <div className='card-tecnologies'>
-                { item.tecnologies.map((technology) => (
-                  <span className={`badge`} style={{backgroundColor: tecnologies.find(item => item.technology == technology)?.color }}>{ technology }</span>
-                )) }
-              </div>
-              
-              <div className="card-links">
-                  <a href={item.urllive} title="See Live" target="_blank"><span>See Live</span></a>
+              <div className='card-container-content'>
+                <div className="card-description">
+                    <p>
+                        { item.description }
+                    </p>
+                </div>
+                    
+                <div className='card-tecnologies'>
+                  { item.tecnologies.map((technology) => (
+                    <span className={`badge`} style={{backgroundColor: tecnologies.find(item => item.technology == technology)?.color }}>{ technology }</span>
+                  )) }
+                </div>
+                
+                <div className="card-links">
+                    <a href={item.urllive} title="See Live" target="_blank"><span>See Live</span></a>
+                </div>
               </div>
             </div>
           )) }

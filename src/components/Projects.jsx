@@ -51,32 +51,34 @@ const Projects = () => {
       technology: 'Bootstrap',
       color: '#712cf9'
     },
+    {
+      technology: 'Font Awesome',
+      color: '#1c7ed6'
+    },
   ]
 
   return (
     <div className='projects-container'>
           { projects.map((item) => ( 
-            <div className="img-card iCard-style1" key={item.urllive}>
-              <div className="card-content">
-                  <div className="card-image">
-                      {/* <span className="card-title">Cloud Beauty</span> */}
-                      <img src={item.img} alt='proyect in portfolio' width='300px' height='300px'/>
-                  </div>
-                  
-                  <div className="card-text">
-                      <p>
-                          { item.description }
-                      </p>
-                  </div>
-                  
+            <div className="card-container" key={item.urllive}>
+              <div className="card-image">
+                  {/* <span className="card-title">Cloud Beauty</span> */}
+                  <img src={item.img} alt='proyect in portfolio' className='card-image-img'/>
               </div>
-              <div>
+              
+              <div className="card-description">
+                  <p>
+                      { item.description }
+                  </p>
+              </div>
+                  
+              <div className='card-tecnologies'>
                 { item.tecnologies.map((technology) => (
                   <span className={`badge`} style={{backgroundColor: tecnologies.find(item => item.technology == technology)?.color }}>{ technology }</span>
                 )) }
               </div>
               
-              <div className="card-link">
+              <div className="card-links">
                   <a href={item.urllive} title="See Live" target="_blank"><span>See Live</span></a>
               </div>
             </div>

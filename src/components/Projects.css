@@ -5,3 +5,9 @@
   justify-content: space-around;
   margin-bottom: 10px;
 }
+
+.badge {
+  padding: 5px;
+  border-radius: 7px;
+  margin-right: 5px;
+}

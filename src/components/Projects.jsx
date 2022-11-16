@@ -34,6 +34,25 @@ const Projects = () => {
     },
   ]
 
+  const tecnologies = [
+    {
+      technology: 'Vue.js',
+      color: '#42b883'
+    },
+    {
+      technology: 'Laravel',
+      color: '#f9322c'
+    },
+    {
+      technology: 'Quasar',
+      color: '#00b4ff'
+    },
+    {
+      technology: 'Bootstrap',
+      color: '#712cf9'
+    },
+  ]
+
   return (
     <div className='projects-container'>
           { projects.map((item) => ( 
@@ -50,6 +69,11 @@ const Projects = () => {
                       </p>
                   </div>
                   
+              </div>
+              <div>
+                { item.tecnologies.map((technology) => (
+                  <span className={`badge`} style={{backgroundColor: tecnologies.find(item => item.technology == technology)?.color }}>{ technology }</span>
+                )) }
               </div>
               
               <div className="card-link">

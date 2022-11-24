@@ -21,7 +21,7 @@ export default function IndexPage() {
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <AboutSection sectionId="about" heading="About" />
         <Animation type="fadeUp">
-            <Section heading="Projects">
+            <Section sectionId="projects" heading="Projects">
               <Projects></Projects>
             </Section>
         </Animation>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { innovatec, zpedidos, diablo3, cashflow} from './imagesbase64'
+import { innovatec, zpedidos, pinterost, diablo3, cashflow} from './imagesbase64'
 import './Projects.css'
 
 const Projects = () => {
@@ -19,15 +19,23 @@ const Projects = () => {
       img: zpedidos,
       title: 'Zpedidos web',
       description: 'This is a delivery service where people can ask for food and services, I was as a fronted developer for its web app.',
-      tecnologies: ['Vue.js', 'Bootstrap'],
+      tecnologies: ['Vue.js', 'Bootstrap', 'CSS'],
       urlgithub: '',
       urllive: 'https://zpedidos.com/'
+    },
+    {
+      img: pinterost,
+      title: 'Pinterost',
+      description: 'This is a social media app where people can share images in diferent categories similar to pinterest, it uses google authentication for users.',
+      tecnologies: ['React.js', 'Tailwind', 'Sanity'],
+      urlgithub: 'https://github.com/lucho19jose/SocialMedia-Pinterost',
+      urllive: 'https://pinterost.netlify.app/'
     },
     {
       img: cashflow,
       title: 'CashFlow-6Jars',
       description: 'App to manage personal expenses and incomes using 6 jars method proposed by Harv Eker. Using capacitor to build the app.',
-      tecnologies: ['Vue.js', 'Quasar', 'TypeScript', 'Capacitor'],
+      tecnologies: ['Vue.js', 'TypeScript', 'Capacitor'],
       urlgithub: 'https://github.com/lucho19jose/personalcashflow',
       urllive: 'https://6jars.netlify.app/'
     },
@@ -71,6 +79,22 @@ const Projects = () => {
       technology: 'TypeScript',
       color: '#3178c6'
     },
+    {
+      technology: 'React.js',
+      color: '#3178c6'
+    },
+    {
+      technology: 'Tailwind',
+      color: '#0EA5E9'
+    },
+    {
+      technology: 'Sanity',
+      color: '#f03e2f'
+    },
+    {
+      technology: 'CSS',
+      color: '#2965f1'
+    },
   ]
 
   return (
@@ -79,7 +103,9 @@ const Projects = () => {
             <div className="card-container" key={item.urllive}>
               <div className="card-image">
                   {/* <span className="card-title">Cloud Beauty</span> */}
-                  <img src={item.img} alt='proyect in portfolio' className='card-image-img'/>
+                  <a href={item.urllive} target="_blank">
+                    <img src={item.img} alt='proyect in portfolio' className='card-image-img'/>
+                  </a>
               </div>
               <div className='card-container-content'>
                 <div className="card-description">
